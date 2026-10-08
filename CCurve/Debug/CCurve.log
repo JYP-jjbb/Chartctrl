@@ -1,0 +1,145 @@
+﻿生成启动时间为 2026/10/8 11:20:24。
+     1>项目“C:\works\CCurve\CCurve\CCurve.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\CCurve.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\CCurve.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CCurve.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CCurve.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartAxis.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartAxisLabel.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartBarSerie.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCandlestickSerie.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCrossHairCursor.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCtrl.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCursor.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartDateTimeAxis.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartDragLineCursor.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartFont.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGanttSerie.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGradient.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGrid.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLegend.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLineSerie.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLogarithmicAxis.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartPointsSerie.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartScrollBar.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSerie.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartStandardAxis.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSurfaceSerie.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartTitle.cpp" "..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartXYSerie.cpp" CCurve.cpp CCurveDlg.cpp
+         CCurveDlg.cpp
+         CCurve.cpp
+         ChartXYSerie.cpp
+         ChartTitle.cpp
+         ChartSurfaceSerie.cpp
+         ChartStandardAxis.cpp
+         ChartSerie.cpp
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartserie.cpp(107): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartserie.cpp(107): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartserie.cpp(108): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartserie.cpp(108): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         ChartScrollBar.cpp
+         ChartPointsSerie.cpp
+         ChartLogarithmicAxis.cpp
+         ChartLineSerie.cpp
+         ChartLegend.cpp
+         ChartGrid.cpp
+         ChartGradient.cpp
+         ChartGanttSerie.cpp
+         ChartFont.cpp
+         ChartDragLineCursor.cpp
+         ChartDateTimeAxis.cpp
+         ChartCursor.cpp
+         ChartCtrl.cpp
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(309): warning C4101: “nTckNum”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(757): warning C4101: “nTckNum”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(757): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(757): warning C4101: “nTickselected”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(759): warning C4101: “temp”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(758): warning C4101: “nseriescount”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(757): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(784): warning C4101: “nTckNum”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(784): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(792): warning C4101: “xlength”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(792): warning C4101: “ymin”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(784): warning C4101: “nTickselected”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(792): warning C4101: “xmax”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(791): warning C4101: “tmp”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(786): warning C4101: “temp”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(790): warning C4101: “nPull”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(792): warning C4101: “xmin”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(785): warning C4101: “nseriescount”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(792): warning C4101: “ymax”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(791): warning C4101: “tmp1”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(784): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(814): warning C4101: “nTckNum”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(814): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(814): warning C4101: “nTickselected”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(816): warning C4101: “temp”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(816): warning C4101: “temp1”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(814): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\administrator.desktop-qvj43fv\desktop\1008\chartctrl\chartctrl\chartctrl.cpp(1049): warning C4101: “a”: 未引用的局部变量
+         正在生成代码...
+         正在编译...
+         ChartCrossHairCursor.cpp
+         ChartCandlestickSerie.cpp
+         ChartBarSerie.cpp
+         ChartAxisLabel.cpp
+         ChartAxis.cpp
+         正在生成代码...
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\CCurve.res" CCurve.rc 
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CCurve.exe.embed.manifest.res" Debug\CCurve_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\works\CCurve\Debug\CCurve.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\CCurve.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\works\CCurve\Debug\CCurve.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\works\CCurve\Debug\CCurve.lib" /MACHINE:X86 Debug\CCurve.res
+         Debug\CCurve.exe.embed.manifest.res
+         Debug\ChartAxis.obj
+         Debug\ChartAxisLabel.obj
+         Debug\ChartBarSerie.obj
+         Debug\ChartCandlestickSerie.obj
+         Debug\ChartCrossHairCursor.obj
+         Debug\ChartCtrl.obj
+         Debug\ChartCursor.obj
+         Debug\ChartDateTimeAxis.obj
+         Debug\ChartDragLineCursor.obj
+         Debug\ChartFont.obj
+         Debug\ChartGanttSerie.obj
+         Debug\ChartGradient.obj
+         Debug\ChartGrid.obj
+         Debug\ChartLegend.obj
+         Debug\ChartLineSerie.obj
+         Debug\ChartLogarithmicAxis.obj
+         Debug\ChartPointsSerie.obj
+         Debug\ChartScrollBar.obj
+         Debug\ChartSerie.obj
+         Debug\ChartStandardAxis.obj
+         Debug\ChartSurfaceSerie.obj
+         Debug\ChartTitle.obj
+         Debug\ChartXYSerie.obj
+         Debug\CCurve.obj
+         Debug\CCurveDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\CCurve.exe.embed.manifest”。
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CCurve.exe.embed.manifest" /manifest Debug\CCurve.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CCurve.exe.embed.manifest.res" Debug\CCurve_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\works\CCurve\Debug\CCurve.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\CCurve.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\works\CCurve\Debug\CCurve.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\works\CCurve\Debug\CCurve.lib" /MACHINE:X86 Debug\CCurve.res
+         Debug\CCurve.exe.embed.manifest.res
+         Debug\ChartAxis.obj
+         Debug\ChartAxisLabel.obj
+         Debug\ChartBarSerie.obj
+         Debug\ChartCandlestickSerie.obj
+         Debug\ChartCrossHairCursor.obj
+         Debug\ChartCtrl.obj
+         Debug\ChartCursor.obj
+         Debug\ChartDateTimeAxis.obj
+         Debug\ChartDragLineCursor.obj
+         Debug\ChartFont.obj
+         Debug\ChartGanttSerie.obj
+         Debug\ChartGradient.obj
+         Debug\ChartGrid.obj
+         Debug\ChartLegend.obj
+         Debug\ChartLineSerie.obj
+         Debug\ChartLogarithmicAxis.obj
+         Debug\ChartPointsSerie.obj
+         Debug\ChartScrollBar.obj
+         Debug\ChartSerie.obj
+         Debug\ChartStandardAxis.obj
+         Debug\ChartSurfaceSerie.obj
+         Debug\ChartTitle.obj
+         Debug\ChartXYSerie.obj
+         Debug\CCurve.obj
+         Debug\CCurveDlg.obj
+         Debug\stdafx.obj
+         CCurve.vcxproj -> C:\works\CCurve\Debug\CCurve.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\CCurve.unsuccessfulbuild”。
+         正在对“Debug\CCurve.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\works\CCurve\CCurve\CCurve.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.11

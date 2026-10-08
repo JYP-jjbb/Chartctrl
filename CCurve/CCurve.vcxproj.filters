@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\CCurve.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CCurve.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCurve.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCurveDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartAxisLabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartBalloonLabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartBarSerie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCandlestickSerie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCrossHairCursor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCursor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartDateTimeAxis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartDragLineCursor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGanttSerie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGradient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLegend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLineSerie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLogarithmicAxis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartMouseListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartPointsArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartPointsSerie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartScrollBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSerie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSerieBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSeriesMouseListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartStandardAxis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSurfaceSerie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartTitle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartXYSerie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\PointsOrdering.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartAxis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCurve.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCurveDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartAxis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartAxisLabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartBarSerie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCandlestickSerie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCrossHairCursor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCursor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartDateTimeAxis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartDragLineCursor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartFont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGanttSerie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGradient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLegend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLineSerie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLogarithmicAxis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartPointsSerie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartScrollBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSerie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartStandardAxis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSurfaceSerie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartTitle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartXYSerie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CCurve.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

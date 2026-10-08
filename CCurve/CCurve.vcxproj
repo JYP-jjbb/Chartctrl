@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7C495AF0-942C-4569-B1D4-F14C535C0434}</ProjectGuid>
+    <RootNamespace>CCurve</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\CCurve.ico" />
+    <None Include="res\CCurve.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartAxis.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartAxisLabel.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartBalloonLabel.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartBarSerie.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCandlestickSerie.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCrossHairCursor.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCtrl.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCursor.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartDateTimeAxis.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartDragLineCursor.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartFont.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGanttSerie.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGradient.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGrid.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLabel.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLegend.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLineSerie.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLogarithmicAxis.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartMouseListener.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartPointsArray.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartPointsSerie.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartScrollBar.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSerie.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSerieBase.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSeriesMouseListener.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartStandardAxis.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartString.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSurfaceSerie.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartTitle.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartXYSerie.h" />
+    <ClInclude Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\PointsOrdering.h" />
+    <ClInclude Include="CCurve.h" />
+    <ClInclude Include="CCurveDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartAxis.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartAxisLabel.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartBarSerie.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCandlestickSerie.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCrossHairCursor.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCtrl.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartCursor.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartDateTimeAxis.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartDragLineCursor.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartFont.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGanttSerie.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGradient.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartGrid.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLegend.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLineSerie.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartLogarithmicAxis.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartPointsSerie.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartScrollBar.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSerie.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartStandardAxis.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartSurfaceSerie.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartTitle.cpp" />
+    <ClCompile Include="..\..\..\Users\Administrator.DESKTOP-QVJ43FV\Desktop\1008\ChartCtrl\ChartCtrl\ChartXYSerie.cpp" />
+    <ClCompile Include="CCurve.cpp" />
+    <ClCompile Include="CCurveDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CCurve.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="CCurve.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
